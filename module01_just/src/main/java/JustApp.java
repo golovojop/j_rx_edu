@@ -15,18 +15,6 @@ public class JustApp {
         p("\n\n\n");
         justInMultiThreads();
 
-
-
-//        Observable.interval(1, TimeUnit.SECONDS)
-//
-//                .observeOn(Schedulers.newThread())
-//                .doOnNext(param -> p("1: " + threadName()))
-//
-//                .observeOn(Schedulers.io())
-//                .doOnNext(param -> p("2: " + threadName()))
-//
-//                .subscribe(param -> p("result: " + threadName() + ": " + Long.toString(param)));
-//
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
