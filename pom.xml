@@ -23,6 +23,7 @@
     </build>
     <modules>
         <module>module01_just</module>
+        <module>module02_defer</module>
     </modules>
 
     <dependencies>
